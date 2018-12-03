@@ -3,9 +3,7 @@
 Perfect extension for Inkcaps.<br>
 Export gcode for laser engraving cnc.<br>
 <br>
-This version is without error *“AttributeError: ‘module’ object has no attribute ‘unittouu’” or “unittouu not part of inkex module“*. (http://www.tylerforsythe.com/2015/02/inkscape-laser-engraver-bug/)<br>
-<br>
-
+This version is without error *“AttributeError: ‘module’ object has no attribute ‘unittouu’” or “unittouu not part of inkex module“*. (http://www.tylerforsythe.com/2015/02/inkscape-laser-engraver-bug/)
 ```
 The bug is on line 3080 of laserengraver.py and broke due to an Inkscape change.
 
